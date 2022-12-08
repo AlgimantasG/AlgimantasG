@@ -1,0 +1,40 @@
+.flexcontainer {
+  margin: 0% 25% 0% 25%;
+  display: flex;
+  flex-direction: column;
+}
+.blue {
+  color:blue;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.video {
+  display: flex;
+  max-height: 100%;
+  max-width: 100%;
+  flex-grow: 0;
+}
+.image {
+  display: flex;
+  height: 300px;
+  width: 400px;
+}
+.table {
+  width: 50%;
+  margin: 10px;
+  border: 3px solid black;
+  background-color: #dfdfdf;
+  flex-shrink: 0;
+}
+.topoflist {
+  background-color: aqua;
+}
+.formula {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+}
